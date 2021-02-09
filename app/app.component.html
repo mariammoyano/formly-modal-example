@@ -1,0 +1,14 @@
+<h1>ngx-formly</h1>
+
+<p class="secondary-text">
+  Click button below to open <code>MatDialog</code> with ngx-formly...
+<p>
+
+<button mat-raised-button color="primary" type="button" (click)="openDialog()">
+  Open Dialog
+</button>
+
+<ng-container *ngIf="submitted">
+  <h3>Submitted Result</h3>
+  <pre>{{ submitted | json }}</pre>
+</ng-container>

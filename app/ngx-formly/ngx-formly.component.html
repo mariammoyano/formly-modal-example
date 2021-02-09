@@ -1,0 +1,22 @@
+<form [formGroup]="form" (ngSubmit)="submit()">
+  <h1 mat-dialog-title>
+    Dialog Example
+  </h1>
+
+  <div mat-dialog-content>
+    <formly-form
+      [fields]="fields"
+      [form]="form"
+      [model]="model">
+    </formly-form>
+  </div>
+
+  <div mat-dialog-actions>
+    <button mat-raised-button
+      color="primary"
+      [disabled]="form.invalid"
+      type="submit">
+      Submit
+    </button>
+  </div>
+</form>

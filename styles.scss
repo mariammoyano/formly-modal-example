@@ -1,0 +1,30 @@
+/* Add application styles & imports to this file! */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+body {
+  background: #f5f5f5;
+  margin: 0;
+  padding: 0 1em;
+}
+
+h1, h2, h3 {
+  margin: 0.75em 0 0.1em !important;
+}
+
+code {
+  background: rgba(0,0,0,0.07);
+  border-radius: 4px;
+  padding: 0.1em 0.25em;
+}
+
+pre {
+  background: rgba(0,0,0,0.07);
+  border-radius: 4px;
+  margin: 0;
+  padding: 1em;
+}
+
+.secondary-text {
+  color: rgba(0,0,0,0.67);
+  font-size: 0.9em;
+}
